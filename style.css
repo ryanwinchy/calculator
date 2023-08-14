@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    margin-bottom: 60px;
+}
+
+button {
+    width: 50px;
+    height: 55px;
+    margin: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.operatorButton {
+    background-color: rgb(240, 203, 83);
+}
+
+.equalityButton {
+    background-color:rgb(119, 233, 109);
+    width: 245px;
+}
+
+.buttons {
+    max-width: 255px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.screen {
+    width: 245px;
+    height: 55px;
+    margin: 5px;
+    background-color: rgb(152, 173, 166);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 55px;
+    font-size: 25px;
+}
+
+.calculator {
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+}
